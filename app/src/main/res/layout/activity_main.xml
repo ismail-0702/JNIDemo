@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvHello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello JNI"
+            android:textSize="20sp"
+            android:paddingBottom="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvFact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Factoriel"
+            android:textSize="18sp"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvReverse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reverse String"
+            android:textSize="18sp"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvArray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Somme tableau"
+            android:textSize="18sp"
+            android:paddingBottom="12dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Résultats des Extensions :"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvSafeString"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sécurité : En attente..."
+            android:textSize="18sp"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvFastAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Addition Dynamique : "
+            android:textSize="18sp"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvBenchmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benchmark : Cliquez pour lancer"
+            android:textSize="18sp"
+            android:textColor="#FF5722"
+            android:paddingBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnRunBenchmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lancer le Benchmark Native"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>
